@@ -1,30 +1,21 @@
-# W02D04-HW
+# ~Random Imager~ in JS & TS
 
-## Command Line / Interview Questions
+## Background
 
-### 1. Main Assignment - EST TIME: 1.5hr
+This repository houses a homework assignment I completed while in week 2 of a General Assembly Software Engineering bootcamp. The original assignment was designed to teach us JavaScript + jQuery. Upon completing the original assignment, I refactored my code into TypeScript. This is my first front-end project that utilizes TypeScript.
 
-- Work through this lecture first: [jquery Events](https://git.generalassemb.ly/SEIR-831/js-programmatic-dom-and-events/blob/master/instructor_notes/events.md)
-- Then attempt this exercise: [Random Imager](./random-imager.md)
-- Work through the following lectures to finish learning about jquery
-- Be sure to check the issues box in the settings tab so we can leave comments
-- When commpleted submit the code you wrote for homework [here](https://docs.google.com/forms/d/e/1FAIpQLSeroos9mbUxkYhzETYq4dylzqb_il07tKHBby2YPLkqb0Wr9Q/viewform).
+### Technologies used
 
-### 2. Read/Watch The Following (bonus if you have time)- EST TIME: 50min
+- html
+- css
+- jQuery
+- TypeScript
+- parcel-bundler
 
-- Do: [FreeCodeCamp: Complete the jQuery Section](https://learn.freecodecamp.org/front-end-libraries/jquery) - 20min
-- Watch: [Algo: Two Sum](https://www.youtube.com/watch?v=0bNNDfhgtCA&t=1s) - 30min
+### Instructions for use
 
-**Bonus**
-
-- [Programatic Dom](https://git.generalassemb.ly/SEIR-831/js-programmatic-dom-and-events/blob/master/instructor_notes/programmatic_dom.md)
-
-### 3. ALGO PRACTICE - EST TIME: 20min
-
-None assigned at this time
-
-### 4. INTERVIEW PRACTICE - EST TIME: 20min
-
-- Answer the following interview question:
-  - **Give me an example of a time you were able to be creative with your work. What was exciting or difficult about it?**.
-- All answers must be at least a paragraph in length however the more you write the more you have to talk about.
+1. fork and clone this repo
+2. install dependencies using `npm install`
+3. `cd` into the TypeScript directory
+4. run `parcel ts_index.html`
+5. navigate to localhost:1234 (or other port if indicated in terminal)
