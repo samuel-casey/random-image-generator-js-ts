@@ -1,4 +1,4 @@
-import * as $ from 'jquery';
+import * as $ from './node_modules/jquery';
 
 $(document).ready(() => {
 	console.log('I got parcel-bundler to work!');

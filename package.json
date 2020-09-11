@@ -2,7 +2,7 @@
 	"name": "w02d04-hw",
 	"version": "1.0.0",
 	"description": "random imager hw 9/11/20",
-	"main": "ts_app.js",
+	"main": "Typescript/ts_app.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},

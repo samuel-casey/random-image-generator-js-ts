@@ -1,6 +1,4 @@
-'use strict';
-exports.__esModule = true;
-var cards = [
+const cards = [
 	'https://www.trustedtarot.com/img/cards/the-fool.png',
 	'https://www.trustedtarot.com/img/cards/the-magician.png',
 	'https://www.trustedtarot.com/img/cards/the-high-priestess.png',
@@ -18,4 +16,5 @@ var cards = [
 	'https://www.trustedtarot.com/img/cards/the-tower.png',
 	'https://www.trustedtarot.com/img/cards/the-moon.png',
 ];
-exports['default'] = cards;
+
+export default cards;
