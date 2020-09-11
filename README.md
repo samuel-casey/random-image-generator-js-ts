@@ -1,4 +1,4 @@
-# ~Random Imager~ in JS & TS
+# Random Image Generator in JS & TS
 
 ## Background
 
