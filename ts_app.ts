@@ -11,7 +11,7 @@ const chooseRandomImg = function (arr: Array<string>) {
 	return arr[Math.floor(Math.random() * arr.length)];
 };
 
-const createCard = function (fn: any) {
+const createCard = function (fn: string) {
 	const srcUrl: string = chooseRandomImg(cards);
 	let $imgForCard = $(`<img src=${srcUrl} alt='card image'>`);
 	let $newCard = $('.container').append($imgForCard);
