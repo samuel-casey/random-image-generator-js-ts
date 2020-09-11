@@ -11203,7 +11203,13 @@ if ( typeof noGlobal === "undefined" ) {
 return jQuery;
 } );
 
-},{"process":"../../../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"ts_app.js":[function(require,module,exports) {
+},{"process":"../../../../../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"cards.js":[function(require,module,exports) {
+"use strict";
+
+exports.__esModule = true;
+var cards = ['https://www.trustedtarot.com/img/cards/the-fool.png', 'https://www.trustedtarot.com/img/cards/the-magician.png', 'https://www.trustedtarot.com/img/cards/the-high-priestess.png', 'https://www.trustedtarot.com/img/cards/the-empress.png', 'https://www.trustedtarot.com/img/cards/the-emperor.png', 'https://www.trustedtarot.com/img/cards/the-heirophant.png', 'https://www.trustedtarot.com/img/cards/the-chariot.png', 'https://www.trustedtarot.com/img/cards/strength.png', 'https://www.trustedtarot.com/img/cards/the-hermit.png', 'https://www.trustedtarot.com/img/cards/wheel-of-fortune.png', 'https://www.trustedtarot.com/img/cards/justice.png', 'https://www.trustedtarot.com/img/cards/the-hanged-man.png', 'https://www.trustedtarot.com/img/cards/death.png', 'https://www.trustedtarot.com/img/cards/temperance.png', 'https://www.trustedtarot.com/img/cards/the-tower.png', 'https://www.trustedtarot.com/img/cards/the-moon.png'];
+exports["default"] = cards;
+},{}],"ts_app.js":[function(require,module,exports) {
 "use strict";
 
 exports.__esModule = true;
@@ -11214,7 +11220,26 @@ $(document).ready(function () {
   console.log('I got parcel-bundler to work!');
   console.log('I made a change and recompiled');
 });
-},{"jquery":"node_modules/jquery/dist/jquery.js"}],"../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+var cards_1 = require("./cards");
+
+var chooseRandomImg = function chooseRandomImg(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+};
+
+var createCard = function createCard(fn) {
+  var srcUrl = chooseRandomImg(cards_1["default"]);
+  var $imgForCard = $("<img src=" + srcUrl + " alt='card image'>");
+  var $newCard = $('.container').append($imgForCard);
+  return $newCard;
+}; // const $card = $('<div>');
+
+
+var $addBtn = $('.addCard');
+$addBtn.click(function () {
+  createCard(chooseRandomImg(cards_1["default"]));
+});
+},{"jquery":"node_modules/jquery/dist/jquery.js","./cards":"cards.js"}],"../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
