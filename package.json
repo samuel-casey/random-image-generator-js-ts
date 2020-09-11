@@ -1,0 +1,23 @@
+{
+	"name": "w02d04-hw",
+	"version": "1.0.0",
+	"description": "random imager hw 9/11/20",
+	"main": "ts_app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://git.generalassemb.ly/samuel-casey/W02D04-HW"
+	},
+	"author": "samuel-casey",
+	"license": "ISC",
+	"devDependencies": {
+		"@tsconfig/recommended": "^1.0.1",
+		"@types/jquery": "^3.5.1"
+	},
+	"dependencies": {
+		"jquery": "^3.5.1",
+		"parcel-bundler": "^1.12.4"
+	}
+}
