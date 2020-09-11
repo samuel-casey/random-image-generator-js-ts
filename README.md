@@ -4,6 +4,8 @@
 
 This repository houses a homework assignment I completed while in week 2 of a General Assembly Software Engineering bootcamp. The original assignment was designed to teach us JavaScript + jQuery. Upon completing the original assignment, I refactored my code into TypeScript. This is my first front-end project that utilizes TypeScript.
 
+See [random-imager.md](random-imager.md) for original project instructions
+
 ### Technologies used
 
 - html
