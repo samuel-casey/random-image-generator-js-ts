@@ -1,4 +1,4 @@
-# Random Image Generator in JS & TS
+# Random Tarot Card Generator in JS & TS
 
 ## Background
 
